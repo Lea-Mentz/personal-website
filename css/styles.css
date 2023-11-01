@@ -1,5 +1,5 @@
 :root {
-    --button_background: rgb(75, 202, 122);
+    --button_background: rgb(72, 196, 118);
 }
 
 body {
@@ -22,8 +22,7 @@ header {
     height: 80vh;
     position: relative;
     width: 100%;
-    border-bottom: 1px solid white;
-    border-style: dotted;
+    border-bottom: 1px dotted white;
     margin-bottom: 5rem;
 }
 
@@ -127,8 +126,7 @@ section {
     border-radius: 10px;
     position: relative;
     height: 43vh;
-    border: 1px solid white;
-    border-style: dotted;
+    border: 1px dotted white;
 }
 
 .item-1-image-wrapper::after {
@@ -182,8 +180,7 @@ section {
     border-radius: 10px;
     padding: 0.8rem;
     margin-bottom: 1rem;
-    border: 1px solid white;
-    border-style: dotted;
+    border: 1px dotted white;
 }
 
 .item-2-wrapper p {
@@ -229,8 +226,7 @@ section {
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
-    border: 1px solid white;
-    border-style: dotted;
+    border: 1px dotted white;
 }
 
 .item-3-wrapper svg {
