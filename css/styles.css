@@ -75,8 +75,8 @@ nav {
     padding-bottom: 0.5rem;
     ;
     font-weight: 700;
-    border-bottom: 1px solid white;
-    box-shadow: #fff -1px 5px 5px;
+    border-bottom: 1px solid var(--button_background);
+    background: var(--button_background)
 }
 
 .social {
@@ -93,7 +93,7 @@ nav {
 }
 
 nav a {
-    color: var(--button_background);
+    color: white;
     text-decoration: none;
     padding: 0.5rem 1.5rem;
     text-align: baseline;
