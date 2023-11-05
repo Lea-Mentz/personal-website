@@ -48,9 +48,6 @@ header p {
     font-family: 'Press Start 2P', sans-serif;
 }
 
-main {
-    height: auto;
-}
 
 @media screen and (min-device-width: 1200px) {
 
@@ -102,6 +99,7 @@ nav {
     top: 0;
     padding-left: 1.2rem;
     padding-top: 0.8rem;
+    z-index: 10;
 
 }
 
@@ -143,7 +141,10 @@ main .flex-list {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    max-height: 30vh;
+}
+
+main {
+    margin-bottom: 5rem;
 }
 
 @media screen and (min-device-width: 1200px) {
@@ -250,6 +251,7 @@ main .flex-list {
     text-align: center;
     padding-left: 0.8rem;
     font-weight: 500;
+    cursor: pointer;
 
 }
 
@@ -283,4 +285,25 @@ main .flex-list {
     width: 20%;
     display: flex;
     align-items: center;
+}
+
+
+footer .popup {
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--button_background);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+}
+
+.contact-folder {
+    display: none;
+}
+
+.contact-folder.show {
+    display: block;
 }

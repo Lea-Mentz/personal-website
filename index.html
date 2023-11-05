@@ -109,8 +109,22 @@
         </div>
     </main>
     <footer>
-
+        <div>
+            <div class="popup" onclick="openContactFolder()">Get in touch here
+                <div id="ContactFolder" class="contact-folder">
+                    <input>
+                </div>
+            </div>
+        </div>
     </footer>
+
+
+    <script>
+        function openContactFolder() {
+            var popup = document.getElementById('ContactFolder')
+            popup.classList.toggle("show");
+        }
+    </script>
 </body>
 
 
