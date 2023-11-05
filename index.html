@@ -16,9 +16,9 @@
 <body>
     <header>
         <nav>
-            <a href="#">Who I am</a>
-            <a href="#">What you get</a>
-            <a href="#">My Skillset</a>
+            <a href="#WhoIam">Who I am</a>
+            <a href="#WhatYouGet">What you get</a>
+            <a href="#MySkillset">My Skillset</a>
         </nav>
         <div class="social">
             <a href="https://www.linkedin.com/in/lea-mentz-6b8457236/?originalSubdomain=de">
@@ -40,7 +40,7 @@
     </header>
     <main>
         <div class="flex-list">
-            <section>
+            <section id="WhoIam">
                 <h2>Who I am</h2>
                 <div class="item-1-image-wrapper">
                     <image src="images/8DEFA773-0487-442B-8FF2-1D54CA0A984F.JPG">
@@ -54,7 +54,7 @@
                         </div>
                 </div>
             </section>
-            <section>
+            <section id="WhatYouGet">
                 <h2>What you get</h2>
                 <div class="item-2-wrapper">
                     <p>Creative Web developer</p>
@@ -68,7 +68,7 @@
                     </svg>
                 </div>
             </section>
-            <section>
+            <section id="MySkillset">
                 <h2>My skillset</h2>
                 <div class="item-3-wrapper">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
@@ -112,7 +112,15 @@
         <div>
             <div class="popup" onclick="openContactFolder()">Get in touch here
                 <div id="ContactFolder" class="contact-folder">
-                    <input>
+                    <div class="flex-col-1">
+                        <p>Feel free to send me a message</p>
+                        <input type="text" placeholder="Your Name">
+                        <input type="number" placeholder="Your E-Mail adress">
+                    </div>
+                    <div class="flex-col-2">
+                        <input class="input-message" type="text" placeholder="Your message takes place here">
+                        <button class="Contact-button">Click to send</button>
+                    </div>
                 </div>
             </div>
         </div>
