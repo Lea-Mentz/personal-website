@@ -148,7 +148,7 @@ main {
     margin-bottom: 5rem;
 }
 
-@media screen and (min-device-width: 1200px) {
+@media screen and (min-device-width: 900px) {
     main .flex-list {
         flex-direction: row;
         flex-wrap: nowrap;
