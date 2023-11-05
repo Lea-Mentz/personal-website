@@ -329,7 +329,10 @@ input.input-message {
     color: white;
     border-radius: 5px;
     padding: 0.5rem 1rem;
+}
 
+.Contact-button svg {
+    width: 20px;
 }
 
 .flex-col-1 {
